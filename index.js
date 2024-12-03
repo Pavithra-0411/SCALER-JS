@@ -16,3 +16,17 @@ console.log("after pop => "+arr);
 
 arr.push("Anudeep Durishetty")
 console.log("after push => "+arr);
+
+c=arr.pop();
+console.log("after pop => "+c);
+
+//shift=> removes 1st element from array
+
+p=arr.shift();
+console.log("after shift => "+c);
+console.log(" shifted array is => "+arr);
+
+//unshift=> adds 1st element to array
+
+arr.unshift("Anudeep Durishetty");
+console.log("after unshift => "+arr);
